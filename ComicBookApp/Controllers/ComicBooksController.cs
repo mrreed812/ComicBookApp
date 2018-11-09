@@ -9,10 +9,10 @@ namespace ComicBookApp.Controllers
      public class ComicBooksController : Controller
     {
         // GET: ComicBooks
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
+        public ActionResult Index()
+        {
+            return View();
+        }
         public ActionResult Detail()
         {
 
